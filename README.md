@@ -51,11 +51,25 @@ This document contains 500 Rows on 7 columns and represents diferent people with
 * correlation matrix heatmap to observe relationships between features
 * KDE plots to compare feature distributions by HeartDisease status.
 * Logistic Regression model to explore the relationship between Cholesterol and HeartDisease
-* The dataset used is relatively small and may not capture the variability in the population. More data could improve sustancially the accuracy.
 * How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+I started by checking for any missing data and removed rows containing null values (There was none) 
+after that i ensured there were no duplicated rows to avoid biases in the analysis.
+![alt text](image.png)
 
+I was prepared for the step of replacement categorical values like "HeartDisease" and "Gender" to numericals columns to (0 and 1) with more descriptive labels "NO" and "YES" for easier interpretation of visualizations but the dataset were already prepared so i just needed to label it later.
+![alt text](image-1.png)
+After the cleaning i explored the data using descriptive statistics to understand the distribution of values like Age, Cholesterol and HeartRate. 
+![alt text](image-2.png)
+I visualized the data using histograms and boxplots. 
+![alt text](image-3.png) ![alt text](image-4.png) 
+Make correlation analysis to identify wich features had a significant relationship with the target variable "HeartDisease". I created Scatter plots, KDE plots and logistic regressions to show how the features are distributed by HeartDisease status.
+![alt text](image-5.png)
+Correlation Heatmap was used to visualize it better.
+![alt text](image-7.png)![alt text](image-6.png)![alt text](image-8.png)
+* Did the data limit you, and did you use an alternative approach to meet these challenges?
+The dataset used is relatively small and may not capture the variability in the population. More data could improve sustancially the accuracy. Specially because there were significantly more "YES" Than "NO" in HeartDisease, wich can impact the prediction.
+* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+AI was useful wen i sought suggestions on how to aproach the analysis and what questions make about the project 
 ## Ethical considerations
 * The dataset is anonymized, so no personal data was involved. 
 * The Dataset was pretty much leveled across Genders and HeartDiseases
@@ -68,7 +82,7 @@ This document contains 500 Rows on 7 columns and represents diferent people with
 
 
 ## Development Roadmap
-* At first i use another Dataset, but it has an excesive amount of information and i could not make it work so in the end i try to solve it using another Dataset
+* At first i use another Dataset, but it has an excesive amount of information and i could not make it work so in the end i try to solve it using another Dataset. The archive "Prueba.py" its were the previous code/project is alocated for me to review at a later date and its not relevant to the content of this project
 * Learn more about machine learning and explore advanced data preprocessing techniques to handle imbalances in the dataset.
 
 
