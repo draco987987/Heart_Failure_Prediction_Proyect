@@ -1,20 +1,30 @@
-# Project XYZ
+# Heart Prediction
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Heart Prediction** This project has been made as part of the first assesment within the Data Analyst course provided by Code Institute. This will be my first project and represent what i have learn so far.
+
+In this project i will document step by step what is happening from Data cleaning to visualization.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* The dataset is sourced from Kaggle.
 
+**What is Kaggle?**
+
+* Kaggle is an online community platform for data scientists and machine learning enthusiasts.
+* Kaggle allows users to collaborate with other users, find and publish datasets, use GPU integrated notebooks, and compete with other data scientists to solve data science challenges.
+
+
+This document contains 500 Rows on 7 columns and represents diferent people with varieties of Gender, Cholesterol, HeartDisease etc...
 
 ## Business Requirements
-* Describe your business requirements
+* The goal of this analysis is to predict the likelihood of Heart disease in patients based on various medical attributes
+* The project aims to privde visual insights into the key factors influencing Heart disease predictions.
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+* Key factors suchs as Age, Cholesterol levels, blood pressure signifi
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
