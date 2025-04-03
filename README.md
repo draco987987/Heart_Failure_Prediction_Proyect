@@ -20,61 +20,75 @@ This document contains 500 Rows on 7 columns and represents diferent people with
 
 ## Business Requirements
 * The goal of this analysis is to predict the likelihood of Heart disease in patients based on various medical attributes
-* The project aims to privde visual insights into the key factors influencing Heart disease predictions.
+* The project aims to create visual insights into the key factors influencing Heart disease predictions.
 
 
 ## Hypothesis and how to validate?
-* Key factors suchs as Age, Cholesterol levels, blood pressure signifi
+* Key factors suchs as Age, Cholesterol levels, blood pressure significantly influence the likehood of Heart Disease
+* Validation will be carried out by analyzing the correlation between features and heart disease occurrence. 
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+**High-level steps**
+* Load and clean the dataset
+* Transform Data if needed
+* Create visualizations to interpret results
+* Conduct a correlation analysis to indentify the most influential features
+* Document Findings
+**Data Management**
+* The data is sourced from the Kaggle Dataset "Heart-Prediction-dataset-quantum".
+* Data was cleaned, missing values handled
+* Statistical analysis was conducted using Pandas and Numpy
+* Insights were created using Matplotlib and Seaborn
+* They are usefull tools and easy to use.
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* Identifying the primary features influencing heart disease prediction.
+* A correlation matrix, KDE and scatter plots were created to hihlight relationships between variables like cholesterol, age and blood pressure
+* Histograms and KDE Plots used to explore the distributions of key features like age and cholesterol.
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
+* Descriptive statistics, histograms and correlation matrix
+* correlation matrix heatmap to observe relationships between features
+* KDE plots to compare feature distributions by HeartDisease status.
+* Logistic Regression model to explore the relationship between Cholesterol and HeartDisease
+* The dataset used is relatively small and may not capture the variability in the population. More data could improve sustancially the accuracy.
 * How did you structure the data analysis techniques. Justify your response.
 * Did the data limit you, and did you use an alternative approach to meet these challenges?
 * How did you use generative AI tools to help with ideation, design thinking and code optimisation?
 
 ## Ethical considerations
-* Were there any data privacy, bias or fairness issues with the data?
-* How did you overcome any legal or societal issues?
+* The dataset is anonymized, so no personal data was involved. 
+* The Dataset was pretty much leveled across Genders and HeartDiseases
+* I ensure the use of publicly available data without violating privacy regulations
 
 
 ## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
+* There were no major unfixed bugs, but there is room for improvement in handling certain parts of the code
+* A lot of them, it was a show of how much i have learn and i needed to come back to the Code Institute web page and w3school to fix certain parts
+
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* At first i use another Dataset, but it has an excesive amount of information and i could not make it work so in the end i try to solve it using another Dataset
+* Learn more about machine learning and explore advanced data preprocessing techniques to handle imbalances in the dataset.
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* Pandas: For data manipulation
+* Numpy: For numerical operations
+* Matplotlib and Seaborn: For visualization of the data
+* statsmodels for statistical modeling
 
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Kaggle tutorials and dataset
+* w3 tutorials
+* code institute tutorials
+
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+* the Dataset was extracted from the https://www.kaggle.com/datasets/shantanugarg274/heart-prediction-dataset-quantum/data
 
 
 ## Acknowledgements (optional)
